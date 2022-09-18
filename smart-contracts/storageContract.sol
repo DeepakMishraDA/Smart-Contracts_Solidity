@@ -6,7 +6,7 @@ import "./contractOne.sol";
 contract StorageFactory {
     FirstSmart public importContract;
 
-    function deployingContra () public {
+    function deployingContra() public {
         importContract = new FirstSmart();
     }
 }
